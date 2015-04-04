@@ -1,0 +1,34 @@
+body {
+    background-color: #404041;
+    color: #E6E7E8;
+    font-family: helvetica, arial;
+}
+h1 {
+    background-color: #E6E7E8;
+    color: #404041;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+
+}
+/****************Text Input**************/
+input[type="text"]:focus {
+    background-color: #9E2828;
+}
+input[type="text"]:hover {
+    background-color: #9E2828;
+}
+/*************Email Input***********/
+input[type="email"]:focus {
+    background-color: #9E2828;
+}
+input[type="email"]:hover {
+    background-color: #9E2828;
+}
+/*************Password Input***********/
+input[type="password"]:focus {
+    background-color: #9E2828;
+}
+input[type="password"]:hover {
+    background-color: #9E2828;
+}

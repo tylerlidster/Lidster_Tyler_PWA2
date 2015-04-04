@@ -1,6 +1,6 @@
 /*  
-	Your Project Title
-	Author: You
+	Your POSTERBOARD
+	Author: Tyler Lidster
 */
 
 (function($){
