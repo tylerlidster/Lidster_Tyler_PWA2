@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!----TYLER LIDSTER-->
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Create Account</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <!-- end CSS-->
+</head>
+<body>
+<h1>POSTERBOARD</h1>
+<h2>Create Account</h2>
+<!--First Name-->
+<p><label for="firstname" required>First Name</label></p>
+   <p><input type="text" name="firstname" title="First Name" id="firstname" class="masterTooltip" placeholder="First Name" required="required"></p>
+<!--Last Name-->
+<p><label for="lastname" required>Last Name</label></p>
+    <p><input type="text" name="lastname" title="Last Name" id="lastname" class="masterTooltip" placeholder="Last Name" required="required"></p>
+<!--Email Address-->
+<p><label for="email-address" required>Username / Email</label></p>
+    <p><input type="email" name="email-address" title="Email" class="masterTooltip" placeholder="Email" required="required"></p>
+<!--Password-->
+<p><label for="password" required>Password</label></p>
+   <p><input type="password" name="password" title="Password" class="masterTooltip" placeholder="Password" required="required"></p>
+<!--Create Account Acceptance-->
+<p><label for="agree">Become A Member Of POSTERBOARD</label>
+    <input type="radio" name="agree" value="yes" checked> Yes
+    <input type="radio" name="agree" value="no"> No</p>
+<!--Create Account Button-->
+<!--Submit-->
+<div id="submit">
+    <input type="submit" name="submit" title="Create Account" class="masterTooltip" value="Create Account">
+</div>
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- plugins -->
+<!-- main -->
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

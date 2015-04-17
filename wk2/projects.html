@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Posters</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <!-- end CSS-->
+</head>
+<body>
+    <header>
+    <h3>Username Here</h3>
+    <h1>POSTERBOARD</h1>
+    <!--Logout-->
+    <div id="logoutbtn">
+        <input type="button" name="logout" title="Log Out" class="masterTooltip" value="Logout">
+    </div>
+        <div id="dashboardbtn">
+            <input type="button" name="dashboard" title="Dashboard" class="masterTooltip" value="Dashboard">
+        </div>
+    </header>
+    <!--Add Poster Modal-->
+    <div class="welcome">
+    <p><a href="#" class="modalClick">+ | PROJECT</a></p>
+    </div>
+    <!--Current Posters-->
+    <div id="projectlist">PROJECTS
+    <div id="projects">
+    </div>
+        </div>
+    <div id="overlay">
+        <div id="modal">
+            <span class="close">X</span>
+            <h3 class="header">+ | PROJECT</h3>
+            <div id="add">
+                <form id="addForm">
+                    <label>Project Name: </label>
+                    <input name="projectName" type="text" id="projectName" />
+                    <br>
+                    <label>Project Description: </label>
+                    <input name="projectDescription" type="text" id="projectDescription" />
+                    <br>
+                    <label>Project Deadline: </label>
+                    <input name="projectDeadline" type="text" id="projectDeadline" />
+                    <br>
+                    <label for="status">Select Status</label>
+                    <br>
+
+                    <label class="mystatus">
+                        <input type="radio" name="status" id="urgent" title="Urgent">
+                    </label>
+                    <label class="mystatus">
+                        <input type="radio" name="status" id="normal" title="Normal">
+                    </label>
+                    <label class="mystatus">
+                        <input type="radio" name="status" id="delayed" title="Delayed">
+                    </label>
+                    <label class="mystatus">
+                        <input type="radio" name="status" id="complete" title="Complete">
+                    </label>
+                    <br>
+                    <input name="addButton" type="button" id="addButton" value="Add" />
+                </form>
+            </h3>
+        </div>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- plugins -->
+    <!-- main -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
